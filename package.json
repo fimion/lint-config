@@ -5,9 +5,9 @@
 	"type": "module",
 	"main": "index.js",
 	"exports": {
-		"prettier": "./prettier.config.js",
-		"eslint": "./eslint.config.js",
-    "eslint-ts": "./eslint-ts.config.js"
+		"./prettier": "./prettier.config.js",
+		"./eslint": "./eslint.config.js",
+    "./eslint-ts": "./eslint-ts.config.js"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
