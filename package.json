@@ -1,0 +1,46 @@
+{
+	"name": "@fimion/lint-config",
+	"version": "1.0.0",
+	"description": "My Personal Linting Configs",
+	"type": "module",
+	"main": "index.js",
+	"exports": {
+		"prettier": "./prettier.config.js",
+		"eslint": "./eslint.config.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"eslint": "eslint '**/*.{js,json,vue}'",
+		"eslint:fix": "eslint --fix '**/*.{js,json,vue}'",
+		"prettier": "prettier -c '**/*.{js,json,vue}'",
+		"prettier:fix": "prettier -w '**/*.{js,json,vue}'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fimion/lint-config.git"
+	},
+	"keywords": [
+		"linting",
+		"js"
+	],
+	"author": "Alex Riviere",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/fimion/lint-config/issues"
+	},
+	"homepage": "https://github.com/fimion/lint-config#readme",
+	"devDependencies": {
+		"eslint": "^9.4.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"eslint-plugin-vue": "9.26.0",
+		"prettier": "^3.3.1"
+	},
+	"peerDependencies": {
+		"eslint": ">= 9",
+		"eslint-config-prettier": ">= 9",
+		"eslint-plugin-prettier": ">= 5",
+		"eslint-plugin-vue": ">= 9",
+		"prettier": ">= 3"
+	}
+}
