@@ -1,6 +1,6 @@
 {
 	"name": "@fimion/lint-config",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "My Personal Linting Configs",
 	"type": "module",
 	"main": "index.js",
