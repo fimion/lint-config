@@ -7,3 +7,5 @@ import base from "./eslint.config.js";
  * @type {import("eslint").ESLint.Options[]}
  */
 const rules = [eslint.configs.recommended, ...tsEsLint.configs.recommended, ...base];
+
+export default rules;
